@@ -1,0 +1,112 @@
+.search {
+  margin-left: 13vw;
+  width: 25vw;
+  position: relative;
+}
+
+.lupa {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lupa img {
+  height: 100%;
+}
+
+.search input {
+  width: 100%;
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-size: 1.2em;
+  font-weight: 400;
+  padding: 10px;
+  background: #FFFFFF;
+  box-shadow: 0 9px 26px rgba(0, 0, 0, 0.19);
+  border: none;
+  border-radius: 10px;
+}
+
+
+$picture-arranger-width: 80vw;
+$image-size: 19vw;
+$indent: ($image-size + ($picture-arranger-width - $image-size * 4) / 3);
+$big-image-size: 2 * $image-size + ($picture-arranger-width - $image-size * 4) / 3;
+$main-height: calc(8vh + 10vw + #{4 * $indent});
+
+.picture__arranger__block {
+  width: $picture-arranger-width;
+  margin: 0 auto;
+  position: relative;
+  height: 4 * $indent;
+}
+
+.image-slider__image {
+  position: absolute;
+  width: $image-size;
+  height: $image-size;
+}
+
+.it1 {
+  top: 0 * $indent;
+  left: 0 * $indent;
+}
+
+.it2 {
+  top: 0 * $indent;
+  left: 1 * $indent;
+}
+
+.it3 {
+  top: 0 * $indent;
+  left: 2 * $indent;
+}
+
+.it4 {
+  top: 0 * $indent;
+  left: 3 * $indent;
+  height: $big-image-size;
+}
+
+.it5 {
+  top: 1 * $indent;
+  left: 0 * $indent;
+  width: $big-image-size;
+}
+
+.it6 {
+  top: 1 * $indent;
+  left: 2 * $indent;
+}
+
+.it7 {
+  top: 2 * $indent;
+  left: 0 * $indent;
+  height: $big-image-size;
+}
+
+.it8 {
+  top: 2 * $indent;
+  left: 1 * $indent;
+}
+
+.it9 {
+  top: 2 * $indent;
+  left: 2 * $indent;
+  width: $big-image-size;
+}
+
+.it10 {
+  top: 3 * $indent;
+  left: 1 * $indent;
+  width: $big-image-size;
+}
+
+.it11 {
+  top: 3 * $indent;
+  left: 3 * $indent;
+}

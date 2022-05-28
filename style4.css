@@ -1,0 +1,89 @@
+.lk__wrapper {
+  width: 90vw;
+  margin: 3vw auto 0 auto;
+}
+
+.user {
+  display: flex;
+}
+
+.user__ava,
+.user__data,
+.user__balance {
+  width: 33.3333%;
+  /*border: 1px solid red;*/
+  padding: 40px;
+}
+
+.user__ava {
+  height: 30vw;
+  overflow: hidden;
+}
+
+.user__ava__inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.user__ava__inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.user__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user__data input {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  border: none;
+  padding: 18px;
+
+  font-family: 'Istok Web', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.045em;
+
+  color: #fff;
+}
+
+.user__data input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.user__age {
+  width: 100%;
+}
+
+.user__age input {
+  padding: 0;
+  width: 100%;
+  -webkit-appearance: none;
+  height: 10px;
+  outline: none;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

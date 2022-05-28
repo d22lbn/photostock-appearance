@@ -12,12 +12,15 @@ new Swiper('.image-slider', {
   slidesPerView: 4,
   spaceBetween: 20,
   loop: true,
-  // // freeMode: true,
+  // freeMode: true,
+  grabCursor: true,
   autoplay: {
     delay: 3000,
     disableOnInteraction: true
   },
   speed: 500,
+
+  // uniqueNavElements: false,
 
   // breakpoints: {
   //   320: {
